@@ -1,0 +1,39 @@
+.main{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  background-color: rgb(218, 241, 255);
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  min-height: 400px;
+  background-color: aliceblue;
+  margin: auto;
+  gap: 5px;
+  margin-top: 5%;
+  text-align: center;
+  font-family: arial;
+}
+
+h2 {
+  color: rgb(133, 156, 232);
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+ background-color: white;
+ color: black;
+ 
+}
